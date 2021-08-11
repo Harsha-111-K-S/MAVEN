@@ -1,0 +1,52 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                       INTRODUCTION TO MAVEN
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++
+INTRODUCTION SECTION-1
++++++++++++++++++++++++
+
+-> When we ask any java developer, what actually a maven is?, ususlly we get an answer saying
+   it is used in build tool, and dependency management.
+-> So my question is is this the main purpose of maven?
+-> no, these are not the main purpose of maven instead it is used as project management tool.
+-> Let us know how to manage a java project.
+-> actually there is no concept of project in java, instead it is just the group of classes.
+-> so what actually a term java project have i.e the structure:
+     -> source code
+     -> Test code
+     -> Project Structure(directories,assests,resources)
+     -> libraries and dependencies
+     -> configuration
+     -> Task manager
+     -> reporting
+-> So how maven come in to picture?
+   -> maven is going to tell us where actually the source code is,the Test code.....
+   -> it actually manages the java project and it will group all java project needs using a concept
+      called project object model.
+-> maven
+       -> provides project stucture and manages it.
+       -> helps managing dependencies 
+       -> configurable project object model
+-> characteristics:
+       -> maven has its own conventions which we have to use, if our project is built based on these
+          conventions then we need not have to configure.
+       -> even then maven provides the option to configure things.
+       -> It is DE agnostic, that is it doest require any IDE, but it is IDE supported.
+       -> Declarative dependency management, i.e we can declare some task to be done and the 
+          maven will do it for us.
+       -> the main thing about maven is, it is a plugin based architecture, where plugins will provide
+          additional functionality to maven.
+NOTE: for installing and setting up maven please refer to the links: 
+https://youtu.be/al7bRZzz4oU
+https://youtu.be/KlIM897RGwc
+
+Working on some concepts like,creating a maven project, working on dependencies and plugins, working with JDBC using maven, and creating a war file
+and deploying on tomcat is been done.
+The worked examples with the outputs screenshots are shown there in each respective folders.
+
+
+ 
+
+
+
